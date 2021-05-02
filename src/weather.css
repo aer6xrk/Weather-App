@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Inconsolata:wght@500&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Cabin:wght@700&family=Inconsolata:wght@500&family=Roboto+Mono:wght@100&display=swap');
+
+
+
+.header{
+    font-family: Prompt;
+    display: flex;
+    justify-content: center;
+}
+
+#input{
+    display: flex;
+    justify-content: center;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+#currentdate{
+    font-family: Roboto Mono;
+}
+
+.city{
+    font-family: Arimo;
+    font-size: 30px
+}
+
+.currentweatherdiv{
+    display: flex;
+    justify-content: center;
+    font-family: Cabin;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: black ;
+    color:white;
+    font-family: Roboto Mono;
+    padding: 5px;
+    margin: 5px;
+}
+
+.dailydiv{
+    display: flex;
+    justify-content: center;
+}
+
+.hourlydiv {
+    display: flex;
+    justify-content: center;
+}
+
+#days{
+    margin-top:30px;
+    font-family: Arimo;
+}
+
+#temps{
+    margin-top:30px;
+    margin-left:40px;
+    font-family: Cabin;
+}
+
+.day{
+    padding-bottom:21.5px
+}
+
+.temp{
+    padding-bottom: 20px;
+}
+
+#hours{
+    margin-top:30px;
+    font-family: Cabin;
+}
+
+#temps2 {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: Cabin;
+}
+
+
+.hour{
+    padding-bottom: 25px;
+    border-top: 2px solid black;
+}
+
+.temp2{
+    padding-bottom: 25.8px;
+    border-top: 2px solid black;
+}
